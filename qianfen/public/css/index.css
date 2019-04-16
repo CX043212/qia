@@ -1,0 +1,85 @@
+#header>.navbar-default{
+    background: #428bca;
+}
+#header>.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+#header>.navbar-default>.navbar-collapse>.navbar-right>.open>a{
+	background: #428bca;
+}
+#header>.navbar-default>.navbar-collapse>.navbar-right>.open>.dropdown-menu>li>a:hover{
+	background:#fff;
+}
+.dropdown-toggle>.one{
+	padding-right:5px;
+}
+#header>.navbar{
+	margin-bottom:0;
+}
+#content{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+}
+#content>#tabBar{
+    width: 15%;
+    height: 100%;
+    flex-shrink: 0;
+    border-right: 1px solid #cdcdcd;
+    background: #fff;
+}
+
+#content>#tabBar>ul{
+    width: 100%;
+    height: 100%;
+}
+
+#content>#tabBar>ul>li>a{
+    width: 100%;
+    height: 50px;
+    display: block;
+    border-bottom: 1px solid #cdcdcd;
+    line-height: 50px;
+    padding-left: 50px;
+    color: #333;
+}
+#content>#tabBar>ul>li>ul{
+    display: none;
+}
+#content>#tabBar>ul>li>ul>li>a{
+    width: 100%;
+    height: 50px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid #cdcdcd;
+    color: #333;   
+}
+#content>#details{
+	
+	margin-left:100px;
+}
+#content>#details>#list>.seller-item>.seller-address>#address{
+	width:300px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top:10px;
+}
+#content>#details>#list>tr>td{
+	padding:10px 20px;
+	height:50px;
+	
+}
+#content>#details>#list>tr>td>img{
+	width:30px;
+	height:30px;
+}
+#sh>tr>td>img{
+	width:30px;
+	height:30px;
+}
+#sh>tr>td{
+	padding:10px;
+}
